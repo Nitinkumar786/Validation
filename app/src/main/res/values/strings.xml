@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LoginSimlpe</string>
+    <string name="name_gmail">Gmail</string>
+    <string name="password">password</string>
+</resources>
