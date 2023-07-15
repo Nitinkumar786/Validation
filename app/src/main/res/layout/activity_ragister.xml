@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-   android:orientation="vertical"
     android:gravity="center"
-
-    tools:context=".MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RagisterActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -31,13 +29,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:text="login"
+                android:text="Signup"
                 android:textColor="@color/black"
                 android:textSize="50dp"
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/gmail"
+                android:id="@+id/gmaill"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/name_gmail"
@@ -48,23 +46,16 @@
                 />
 
             <EditText
-                android:id="@+id/password"
+                android:id="@+id/passwordd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/password"
                 android:padding="10dp"
                 android:textColor="@color/black"
                 android:textStyle="bold" />
+
             <Button
-                android:id="@+id/btn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Login"
-                android:textStyle="bold"
-                android:backgroundTint="@color/black"
-                />
-            <Button
-                android:id="@+id/btn1"
+                android:id="@+id/bttn1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Signup"
@@ -75,4 +66,5 @@
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
 </LinearLayout>

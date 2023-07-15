@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "395785013955",
+    "project_id": "loginsimple-a3aba",
+    "storage_bucket": "loginsimple-a3aba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395785013955:android:522449009ea746071db076",
+        "android_client_info": {
+          "package_name": "com.example.loginsimlpe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395785013955-ho3mp2do1cr2asv0hjlcsm1hon4an3a8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXSSUbISARKPewc3jj0mD-qvi3flsxaiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395785013955-ho3mp2do1cr2asv0hjlcsm1hon4an3a8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
